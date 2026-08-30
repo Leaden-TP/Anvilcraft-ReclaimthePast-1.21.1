@@ -1,0 +1,13 @@
+{
+  "itemGroup.reclaimingthepast": "Example Mod Tab",
+  "block.reclaimingthepast.example_block": "Example Block",
+  "item.reclaimingthepast.example_item": "Example Item",
+
+  "reclaimingthepast.configuration.title": "AnvilCraft: Reclaiming the Past Configs",
+  "reclaimingthepast.configuration.section.reclaimingthepast.common.toml": "AnvilCraft: Reclaiming the Past Configs",
+  "reclaimingthepast.configuration.section.reclaimingthepast.common.toml.title": "AnvilCraft: Reclaiming the Past Configs",
+  "reclaimingthepast.configuration.items": "Item List",
+  "reclaimingthepast.configuration.logDirtBlock": "Log Dirt Block",
+  "reclaimingthepast.configuration.magicNumberIntroduction": "Magic Number Text",
+  "reclaimingthepast.configuration.magicNumber": "Magic Number"
+}
