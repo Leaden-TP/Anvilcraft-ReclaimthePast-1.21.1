@@ -1,0 +1,116 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "reclaimingthepast:block/ritual_amethyst_smithing_table_front",
+		"1": "reclaimingthepast:block/ritual_amethyst_smithing_table_side",
+		"2": "reclaimingthepast:block/ritual_amethyst_base",
+		"3": "reclaimingthepast:block/ritual_amethyst_anvil_cloth",
+		"particle": "reclaimingthepast:block/ritual_amethyst_smithing_table_front"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [6, 15.5, 6.5],
+			"to": [7, 16.5, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 15.5, 6.5]},
+			"faces": {
+				"north": {"uv": [9, 15, 10, 14], "texture": "#3"},
+				"east": {"uv": [9, 14, 12, 15], "rotation": 180, "texture": "#3"},
+				"south": {"uv": [11, 14, 12, 15], "rotation": 90, "texture": "#3"},
+				"west": {"uv": [12, 14, 9, 15], "rotation": 180, "texture": "#3"},
+				"up": {"uv": [9, 14, 12, 15], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [0, 0, 1, 3], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8, 15.5, 6],
+			"to": [10, 16.5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 7]},
+			"faces": {
+				"north": {"uv": [9, 12, 8, 10], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [12, 10, 8, 11], "texture": "#3"},
+				"south": {"uv": [12, 12, 11, 10], "rotation": 90, "texture": "#3"},
+				"west": {"uv": [8, 11, 12, 12], "texture": "#3"},
+				"up": {"uv": [8, 10, 12, 12], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [0, 0, 2, 4], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7, 15.5, 7],
+			"to": [8, 16.5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 15.5, 7]},
+			"faces": {
+				"north": {"uv": [9, 12, 10, 13], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [1, 1, 3, 2], "texture": "#3"},
+				"south": {"uv": [10, 12, 11, 13], "rotation": 90, "texture": "#3"},
+				"west": {"uv": [1, 1, 3, 2], "texture": "#3"},
+				"up": {"uv": [9, 12, 11, 13], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [0, 1, 1, 3], "texture": "#3"}
+			}
+		},
+		{
+			"from": [4, 11.15, -0.1],
+			"to": [12, 16.15, 16.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14.15, -0.35]},
+			"faces": {
+				"north": {"uv": [0, 8, 5, 16], "rotation": 90, "texture": "#3"},
+				"south": {"uv": [0, 8, 5, 16], "rotation": 90, "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 8], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [1, 0, 9, 16], "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		0,
+		{
+			"name": "group",
+			"origin": [6, 16, 6.5],
+			"scope": 0,
+			"color": 0,
+			"children": [1, 2, 3, 4]
+		}
+	]
+}
